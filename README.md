@@ -2,7 +2,7 @@
 
 ![未命名store_1024pt](https://raw.githubusercontent.com/xuyunshi/EasyResponder/master/Example/EasyResponder/Images.xcassets/AppIcon.appiconset/%E6%9C%AA%E5%91%BD%E5%90%8Dstore_1024pt.png)
 
-##Summary
+## Summary
 你的页面里是否有如同图标所示的多层用户操作传值困惑？
 - Delegate?
 - Block?
