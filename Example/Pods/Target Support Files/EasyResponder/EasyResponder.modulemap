@@ -1,0 +1,6 @@
+framework module EasyResponder {
+  umbrella header "EasyResponder-umbrella.h"
+
+  export *
+  module * { export * }
+}

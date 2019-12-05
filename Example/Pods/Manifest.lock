@@ -1,0 +1,27 @@
+PODS:
+  - EasyResponder (0.0.1)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - EasyResponder (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  EasyResponder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyResponder: 26c032d9fbbbd385df9e586f3f26dbe44b7d921b
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: b683570462629a4ae2e17a3eeef45f2c6de40100
+
+COCOAPODS: 1.6.1

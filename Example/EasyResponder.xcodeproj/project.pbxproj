@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		5CDEBB9CF3398838E2A6D3B9 /* Pods_EasyResponder_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 085255DE268ED6785DA9B0D0 /* Pods_EasyResponder_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8AA07FEC13252191FA6585E1 /* Pods_EasyResponder_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F50782A2481198EC8A78659 /* Pods_EasyResponder_Tests.framework */; };
+		F6347FEE2398DB9C009218B4 /* MainTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6347FED2398DB9C009218B4 /* MainTableVC.swift */; };
+		F6347FF02398DC46009218B4 /* ButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6347FEF2398DC46009218B4 /* ButtonVC.swift */; };
+		F6347FF32398DD67009218B4 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6347FF22398DD67009218B4 /* ButtonView.swift */; };
+		F6347FF62398E293009218B4 /* TextfieldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6347FF52398E293009218B4 /* TextfieldVC.swift */; };
+		F6347FF82398E317009218B4 /* TextifledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6347FF72398E317009218B4 /* TextifledView.swift */; };
+		F6347FFA2398E438009218B4 /* CommonHandlerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6347FF92398E438009218B4 /* CommonHandlerVC.swift */; };
+		F6347FFC2398E6F4009218B4 /* TextViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6347FFB2398E6F4009218B4 /* TextViewVC.swift */; };
+		F6347FFE2398E6FF009218B4 /* TextViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6347FFD2398E6FF009218B4 /* TextViewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,14 +36,13 @@
 
 /* Begin PBXFileReference section */
 		085255DE268ED6785DA9B0D0 /* Pods_EasyResponder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyResponder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09A7C45BE75EE73697E15276 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		09A7C45BE75EE73697E15276 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0F50782A2481198EC8A78659 /* Pods_EasyResponder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyResponder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		333402AE85ECCED28D593218 /* Pods-EasyResponder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyResponder_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EasyResponder_Tests/Pods-EasyResponder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		486C0AF6CDE79C9CD7272F0F /* Pods-EasyResponder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyResponder_Example.debug.xcconfig"; path = "Target Support Files/Pods-EasyResponder_Example/Pods-EasyResponder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EasyResponder_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyResponder_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -45,8 +51,16 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B455F0B1B4F1BDBF0570BEE /* Pods-EasyResponder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyResponder_Tests.release.xcconfig"; path = "Target Support Files/Pods-EasyResponder_Tests/Pods-EasyResponder_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		92DBE5273CA4226B3CB23F43 /* Pods-EasyResponder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyResponder_Example.release.xcconfig"; path = "Target Support Files/Pods-EasyResponder_Example/Pods-EasyResponder_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A495B57F9D95D7E770506D8B /* EasyResponder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EasyResponder.podspec; path = ../EasyResponder.podspec; sourceTree = "<group>"; };
-		B295BF8AE71FC9A45E9145A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A495B57F9D95D7E770506D8B /* EasyResponder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EasyResponder.podspec; path = ../EasyResponder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B295BF8AE71FC9A45E9145A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F6347FED2398DB9C009218B4 /* MainTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTableVC.swift; path = /Users/fangzhitao/Desktop/Netmi/EasyResponder/Example/EasyResponder/MainTableVC.swift; sourceTree = "<absolute>"; };
+		F6347FEF2398DC46009218B4 /* ButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonVC.swift; sourceTree = "<group>"; };
+		F6347FF22398DD67009218B4 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		F6347FF52398E293009218B4 /* TextfieldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldVC.swift; sourceTree = "<group>"; };
+		F6347FF72398E317009218B4 /* TextifledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextifledView.swift; sourceTree = "<group>"; };
+		F6347FF92398E438009218B4 /* CommonHandlerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonHandlerVC.swift; sourceTree = "<group>"; };
+		F6347FFB2398E6F4009218B4 /* TextViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewVC.swift; sourceTree = "<group>"; };
+		F6347FFD2398E6FF009218B4 /* TextViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +107,12 @@
 		607FACD21AFB9204008FA782 /* Example for EasyResponder */ = {
 			isa = PBXGroup;
 			children = (
+				F6347FFF2398E759009218B4 /* Text */,
+				F6347FF12398DD5A009218B4 /* Button */,
+				F6347FF42398E274009218B4 /* Textfield */,
+				F6347FED2398DB9C009218B4 /* MainTableVC.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				F6347FF92398E438009218B4 /* CommonHandlerVC.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -147,7 +165,6 @@
 				333402AE85ECCED28D593218 /* Pods-EasyResponder_Tests.debug.xcconfig */,
 				6B455F0B1B4F1BDBF0570BEE /* Pods-EasyResponder_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,6 +175,33 @@
 				0F50782A2481198EC8A78659 /* Pods_EasyResponder_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6347FF12398DD5A009218B4 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				F6347FEF2398DC46009218B4 /* ButtonVC.swift */,
+				F6347FF22398DD67009218B4 /* ButtonView.swift */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		F6347FF42398E274009218B4 /* Textfield */ = {
+			isa = PBXGroup;
+			children = (
+				F6347FF52398E293009218B4 /* TextfieldVC.swift */,
+				F6347FF72398E317009218B4 /* TextifledView.swift */,
+			);
+			name = Textfield;
+			sourceTree = "<group>";
+		};
+		F6347FFF2398E759009218B4 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				F6347FFB2398E6F4009218B4 /* TextViewVC.swift */,
+				F6347FFD2398E6FF009218B4 /* TextViewView.swift */,
+			);
+			name = Text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,11 +258,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -228,6 +273,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -358,7 +404,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				F6347FFA2398E438009218B4 /* CommonHandlerVC.swift in Sources */,
+				F6347FFE2398E6FF009218B4 /* TextViewView.swift in Sources */,
+				F6347FF62398E293009218B4 /* TextfieldVC.swift in Sources */,
+				F6347FF82398E317009218B4 /* TextifledView.swift in Sources */,
+				F6347FEE2398DB9C009218B4 /* MainTableVC.swift in Sources */,
+				F6347FFC2398E6F4009218B4 /* TextViewVC.swift in Sources */,
+				F6347FF32398DD67009218B4 /* ButtonView.swift in Sources */,
+				F6347FF02398DC46009218B4 /* ButtonVC.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,13 +558,15 @@
 			baseConfigurationReference = 486C0AF6CDE79C9CD7272F0F /* Pods-EasyResponder_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EasyResponder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -520,13 +575,15 @@
 			baseConfigurationReference = 92DBE5273CA4226B3CB23F43 /* Pods-EasyResponder_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EasyResponder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -546,8 +603,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyResponder_Example.app/EasyResponder_Example";
 			};
 			name = Debug;
@@ -564,8 +620,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyResponder_Example.app/EasyResponder_Example";
 			};
 			name = Release;

@@ -1,20 +1,30 @@
 # EasyResponder
 
-[![CI Status](https://img.shields.io/travis/许允是/EasyResponder.svg?style=flat)](https://travis-ci.org/许允是/EasyResponder)
-[![Version](https://img.shields.io/cocoapods/v/EasyResponder.svg?style=flat)](https://cocoapods.org/pods/EasyResponder)
-[![License](https://img.shields.io/cocoapods/l/EasyResponder.svg?style=flat)](https://cocoapods.org/pods/EasyResponder)
-[![Platform](https://img.shields.io/cocoapods/p/EasyResponder.svg?style=flat)](https://cocoapods.org/pods/EasyResponder)
+## Summary
+你的页面里是否有如同图标所示的多层用户操作传值困惑？
+- Delegate?
+- Block?
+- Notification?
+- ???
+
+本仓库借助UIRespondChain，直接将用户操作事件以EasyEvent形式在RespondChain中传递。
+
+从此不再困惑点击事件用delegate还是block了。
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```swift
+let btn = UIButton(type: .custom)
+btn.transferEasyEventWithIdentifier("foo_id", for: .touchUpInside)
+```
+
 
 ## Requirements
+iOS 9.0
+
+Swift 5.0
 
 ## Installation
-
-EasyResponder is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'EasyResponder'
@@ -23,7 +33,3 @@ pod 'EasyResponder'
 ## Author
 
 许允是, 405029644@qq.com
-
-## License
-
-EasyResponder is available under the MIT license. See the LICENSE file for more info.
