@@ -1,6 +1,7 @@
 # EasyResponder
 
-## Summary
+![未命名store_1024pt](/Users/fangzhitao/Desktop/Netmi/EasyResponder/Example/EasyResponder/Images.xcassets/AppIcon.appiconset/未命名store_1024pt.png)
+##Summary
 你的页面里是否有如同图标所示的多层用户操作传值困惑？
 - Delegate?
 - Block?
